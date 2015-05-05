@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450100ED11FC594D00AE3542 /* scrOBJc.h in Headers */ = {isa = PBXBuildFile; fileRef = 450100EC11FC594D00AE3542 /* scrOBJc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4506242F11FB40A300FD0BF2 /* scrOBJcTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4506242711FB40A300FD0BF2 /* scrOBJcTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4506243011FB40A300FD0BF2 /* scrOBJcTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4506242811FB40A300FD0BF2 /* scrOBJcTrack.m */; };
+		4506243311FB40A300FD0BF2 /* scrOBJcSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4506242C11FB40A300FD0BF2 /* scrOBJcSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4506243411FB40A300FD0BF2 /* scrOBJcSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4506242D11FB40A300FD0BF2 /* scrOBJcSingleton.m */; };
+		4506243711FB411F00FD0BF2 /* scrOBJcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4506243611FB411F00FD0BF2 /* scrOBJcProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4506243F11FB423300FD0BF2 /* scrOBJcLastFMProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4506243D11FB423300FD0BF2 /* scrOBJcLastFMProtocol.m */; };
+		4506244011FB423300FD0BF2 /* scrOBJcLastFMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4506243E11FB423300FD0BF2 /* scrOBJcLastFMProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450624AE11FB5E6400FD0BF2 /* scrOBJcString.h in Headers */ = {isa = PBXBuildFile; fileRef = 450624AC11FB5E6400FD0BF2 /* scrOBJcString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450624AF11FB5E6400FD0BF2 /* scrOBJcString.m in Sources */ = {isa = PBXBuildFile; fileRef = 450624AD11FB5E6400FD0BF2 /* scrOBJcString.m */; };
+		4522132D11FC610400562F22 /* scrOBJcLibreFMProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 450625F511FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4522132E11FC610500562F22 /* scrOBJcLibreFMProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 450625F611FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* scrOBJc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJc_Prefix.pch; sourceTree = "<group>"; };
+		450100EC11FC594D00AE3542 /* scrOBJc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJc.h; sourceTree = "<group>"; };
+		4506242711FB40A300FD0BF2 /* scrOBJcTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcTrack.h; sourceTree = "<group>"; };
+		4506242811FB40A300FD0BF2 /* scrOBJcTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrOBJcTrack.m; sourceTree = "<group>"; };
+		4506242C11FB40A300FD0BF2 /* scrOBJcSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcSingleton.h; sourceTree = "<group>"; };
+		4506242D11FB40A300FD0BF2 /* scrOBJcSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrOBJcSingleton.m; sourceTree = "<group>"; };
+		4506243611FB411F00FD0BF2 /* scrOBJcProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcProtocol.h; sourceTree = "<group>"; };
+		4506243D11FB423300FD0BF2 /* scrOBJcLastFMProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrOBJcLastFMProtocol.m; sourceTree = "<group>"; };
+		4506243E11FB423300FD0BF2 /* scrOBJcLastFMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcLastFMProtocol.h; sourceTree = "<group>"; };
+		450624AC11FB5E6400FD0BF2 /* scrOBJcString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcString.h; sourceTree = "<group>"; };
+		450624AD11FB5E6400FD0BF2 /* scrOBJcString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrOBJcString.m; sourceTree = "<group>"; };
+		450625F511FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrOBJcLibreFMProtocol.h; sourceTree = "<group>"; };
+		450625F611FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrOBJcLibreFMProtocol.m; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* scrOBJc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = scrOBJc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* scrOBJc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* scrOBJc */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = scrOBJc;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4506242611FB40A300FD0BF2 /* scrOBJc */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* scrOBJc_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4506242611FB40A300FD0BF2 /* scrOBJc */ = {
+			isa = PBXGroup;
+			children = (
+				450100EC11FC594D00AE3542 /* scrOBJc.h */,
+				450625F511FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.h */,
+				450625F611FBBC0800FD0BF2 /* scrOBJcLibreFMProtocol.m */,
+				4506243E11FB423300FD0BF2 /* scrOBJcLastFMProtocol.h */,
+				4506243D11FB423300FD0BF2 /* scrOBJcLastFMProtocol.m */,
+				4506242711FB40A300FD0BF2 /* scrOBJcTrack.h */,
+				4506242811FB40A300FD0BF2 /* scrOBJcTrack.m */,
+				4506242B11FB40A300FD0BF2 /* utils */,
+			);
+			path = scrOBJc;
+			sourceTree = "<group>";
+		};
+		4506242B11FB40A300FD0BF2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4506243611FB411F00FD0BF2 /* scrOBJcProtocol.h */,
+				4506242C11FB40A300FD0BF2 /* scrOBJcSingleton.h */,
+				4506242D11FB40A300FD0BF2 /* scrOBJcSingleton.m */,
+				450624AC11FB5E6400FD0BF2 /* scrOBJcString.h */,
+				450624AD11FB5E6400FD0BF2 /* scrOBJcString.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506242F11FB40A300FD0BF2 /* scrOBJcTrack.h in Headers */,
+				4506243311FB40A300FD0BF2 /* scrOBJcSingleton.h in Headers */,
+				4506243711FB411F00FD0BF2 /* scrOBJcProtocol.h in Headers */,
+				4506244011FB423300FD0BF2 /* scrOBJcLastFMProtocol.h in Headers */,
+				450624AE11FB5E6400FD0BF2 /* scrOBJcString.h in Headers */,
+				450100ED11FC594D00AE3542 /* scrOBJc.h in Headers */,
+				4522132D11FC610400562F22 /* scrOBJcLibreFMProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* scrOBJc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "scrOBJc" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrOBJc;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = scrOBJc;
+			productReference = 8DC2EF5B0486A6940098B216 /* scrOBJc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "scrOBJc" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* scrOBJc */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* scrOBJc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506243011FB40A300FD0BF2 /* scrOBJcTrack.m in Sources */,
+				4506243411FB40A300FD0BF2 /* scrOBJcSingleton.m in Sources */,
+				4506243F11FB423300FD0BF2 /* scrOBJcLastFMProtocol.m in Sources */,
+				450624AF11FB5E6400FD0BF2 /* scrOBJcString.m in Sources */,
+				4522132E11FC610500562F22 /* scrOBJcLibreFMProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = scrOBJc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = scrOBJc;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = scrOBJc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = scrOBJc;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "scrOBJc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "scrOBJc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
