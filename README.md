@@ -3,7 +3,7 @@
 **imported from https://code.google.com/p/scrobjc/admin**
 
 
-scrOBJc is an easy to use library for scrobbling. Currently the scrobbling system of [http://www.last.fm](Last.FM) and [http://www.libre.fm](Libre.FM) are supported.
+scrOBJc is an easy to use library for scrobbling. Currently the scrobbling system of [Last.FM](http://www.last.fm) and [Libre.FM](http://www.libre.fm) are supported.
 
 The idea was to create a cocoa framework with following goals:
 
